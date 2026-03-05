@@ -39,10 +39,28 @@ const projectsData = [
     {
         id: "proj-4",
         title: "Any Connect",
-        description: "Real-time video chat application with WebRTC for peer-to-peer calls. Join rooms, share your screen, and connect with others instantly.",
+        description: "Real-time video chat application with WebRTC for peer-to-peer calls. Join rooms, talk, play games and connect with others instantly.",
         url: "https://anyconnectfrontend.vercel.app/",
         image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80",
         tags: ["MERN", "Socket.io", "WebRTC"],
+        category: "fullstack"
+    },
+    {
+        id: "proj-5",
+        title: "FOF - Find Old Friend",
+        description: "Platform to reconnect with old friends. User accounts, visitor stats, and donation tracking. Every new friend is a new adventure.",
+        url: "https://fof-website.onrender.com/",
+        image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=800&q=80",
+        tags: ["React", "Node.js", "MongoDB", "Express", "JWT"],
+        category: "fullstack"
+    },
+    {
+        id: "proj-6",
+        title: "GPS Alert",
+        description: "GPS Alarm or GPS Alert — mobile app for location-based alerts and notifications. Built with React Native.",
+        url: "https://github.com/iamrahul25/GpsAlert",
+        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+        tags: ["React Native", "JavaScript", "Expo"],
         category: "fullstack"
     }
 ];
